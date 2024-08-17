@@ -1,0 +1,45 @@
+.mainContainer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainContainer__lista {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+    color: midnightblue;
+    background-color: lightgray;
+    width: 500px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.lista__elemento {
+    padding: 0;
+    justify-content: center;
+    padding: 5px 5px;
+}
+
+.elemento__interior {
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 10px 10px;
+    border: 1px dotted white;
+    border-radius: 5px;
+}
+
+.btn_agregar {
+    background-color: lightgreen;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+
+.btn_eliminar {
+    cursor: pointer;
+}
+
